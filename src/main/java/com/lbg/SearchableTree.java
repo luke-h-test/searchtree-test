@@ -2,7 +2,6 @@ package com.lbg;
 import java.util.ArrayList;
 public class SearchableTree
 {
-    private ArrayList<String> items = new ArrayList<>();
     public String populateContainer()
     {
         String str= new String("selvyn");
