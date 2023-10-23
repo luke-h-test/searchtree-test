@@ -14,4 +14,15 @@ public class DataStore
     {
         return items.indexOf(key);
     }
+
+    public void generate()
+    {
+        String str= new String("selvyn");
+        items.add(str);
+        items.add("trains");
+        items.add("lecture");
+        items.add("graduate");
+        items.add("company");
+        items.add("taxes");
+    }
 }
